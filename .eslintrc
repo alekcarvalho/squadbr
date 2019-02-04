@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "plugins": ["import"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      },
+      "babel-module": {}
+    }
+  }
+}

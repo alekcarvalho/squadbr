@@ -1,0 +1,11 @@
+@import "../../assets/css/vars.scss";
+
+.search-button-submit {
+  background: $secondary;
+  color: $default;
+  &:hover {
+    background: $secondary;
+    color: $default;
+    opacity: 0.8;
+  }
+}

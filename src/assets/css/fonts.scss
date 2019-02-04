@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Cerebri Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../static/fonts/cerebri-sans/CerebriSans-Regular.eot"); /* IE9 Compat Modes */
+  src: local("Cerebri Sans"), local("Cerebri Sans"),
+    url("../../static/fonts/cerebri-sans/CerebriSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../../static/fonts/cerebri-sans/CerebriSans-Regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../../static/fonts/cerebri-sans/CerebriSans-Regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../static/fonts/sofia-pro/Sofia-Pro-Regular.otf");
+}

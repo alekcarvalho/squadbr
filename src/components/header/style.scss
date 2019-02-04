@@ -1,0 +1,20 @@
+@import "../../assets/css/vars.scss";
+
+.ant-layout-header {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.ant-menu-item-selected {
+  background: none !important;
+  border: none !important;
+}
